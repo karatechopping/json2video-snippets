@@ -38,34 +38,29 @@
       },
       "duration": 7,
       "comment": "Bottom Left to Bottom Right",
-      "fade-in": 1,
-      "fade-out": 1
+      "fade-in": 2,
+      "fade-out": 2,
+      "start": 1
     },
     {
       "id": "02-text",
       "type": "text",
-      "style": "001",
+      "style": "002",
       "text": "--replace-text--",
       "settings": {
-        "color": "#FFFFFF",
-        "font-size": "80px",
-        "font-family": "Roboto",
-        "shadow": 2,
-        "text-align": "left",
-        "horizontal-align": "right",
-        "margin": "3vw"
+        "font-size": "100px",
+        "font-family": "Roboto"
       },
-      "duration": 7,
-      "fade-out": 1,
+      "transition": {
+        "style": "dissolve",
+        "duration": 3
+      },
       "position": "custom",
-      "flip-horizontal": false,
-      "flip-vertical": false,
-      "y": 836,
-      "x": 0,
-      "width": 1934,
-      "height": 162,
+      "y": 380,
+      "fade-in": 2,
+      "fade-out": 2,
       "start": 2,
-      "fade-in": 1
+      "duration": 6
     }
   ],
   "transition": {

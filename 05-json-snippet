@@ -43,9 +43,7 @@
       "component": "basic/000",
       "settings": {
         "headline": {
-          "text": [
-            "--replace-text--"
-          ],
+          "text": "--replace-text--",
           "color": "#fff",
           "font-size": "60px",
           "font-family": "Roboto"
@@ -53,9 +51,7 @@
         "body": {
           "color": "#bbb",
           "font-size": "50px",
-          "text": [
-            "--replace-hashtags--"
-          ]
+          "text": "--replace-hashtags--",
         }
       },
       "width": 600,
