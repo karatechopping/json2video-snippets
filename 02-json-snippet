@@ -1,26 +1,53 @@
-#Sliding Box LTR Bottom
+#Sliding Box LTR Bottom - needs text
 {
-  "id": "qqpyy1am",
-  "type": "component",
-  "component": "shape/rectangle",
-  "settings": {
-    "rectangle1": {
-      "left": "0%",
-      "top": "100%",
-      "width": "0",
-      "height": "15%",
-      "animate": {
-        "left": "25%",
-        "duration": "1500",
-        "easing": "easeOutQuad",
-        "top": "78%",
-        "width": "75%"
+  "id": "q6yfb9ss",
+  "comment": "New scene",
+  "elements": [
+    {
+      "type": "image",
+      "id": "q2x0wfez",
+      "src": "--replace-image--",
+      "position": "custom",
+      "pan": "--replace-pan--",
+      "zoom": --replace-zoom--,
+      "pan-distance": 0,
+      "scale": "110%",
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "qqpyy1am",
+      "type": "component",
+      "component": "shape/rectangle",
+      "settings": {
+        "rectangle1": {
+          "left": "0%",
+          "top": "100%",
+          "width": "0",
+          "height": "15%",
+          "animate": {
+            "left": "25%",
+            "duration": "1500",
+            "easing": "easeOutQuad",
+            "top": "78%",
+            "width": "75%"
+          },
+          "background-color": "#000000aa"
+        }
       },
-      "background-color": "#000000aa"
+      "duration": 7,
+      "comment": "Left to right moving box",
+      "fade-in": 1,
+      "fade-out": 1
     }
-  },
-  "duration": 7,
-  "comment": "Left to right moving box",
-  "fade-in": 1,
-  "fade-out": 1
+  ],
+  "background-color": "#ffffff",
+  "cache": false,
+  "duration": 10,
+  "transition": {
+    "style": "--replace-transition--",
+    "duration": 1
+  }
 }

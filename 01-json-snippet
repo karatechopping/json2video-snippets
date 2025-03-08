@@ -8,8 +8,14 @@
       "id": "q2x0wfez",
       "src": "--replace-image--",
       "position": "custom",
-      "pan": "--replace-pan",
-      "zoom": "--replace-zoom--"
+      "pan": "--replace-pan--",
+      "zoom": --replace-zoom--,
+      "pan-distance": 0,
+      "scale": "110%",
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 1080
     },
     {
       "id": "qczsdibm",
