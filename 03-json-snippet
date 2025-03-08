@@ -1,3 +1,4 @@
+#Sliding Box Top 2 Bottom Left 40%
 {
   "id": "q6yfb9ss",
   "comment": "New scene",
@@ -8,20 +9,18 @@
       "component": "shape/rectangle",
       "settings": {
         "rectangle1": {
-          "left": "50%",
-          "top": "50%",
-          "width": "0%",
-          "height": "0%",
+          "left": "0%",
+          "top": "-100%",
+          "width": "40%",
+          "height": "100%",
           "animate": {
             "duration": "2000",
             "easing": "easeOutQuad",
-            "top": "20%",
-            "height": "60%",
-            "left": "20%",
-            "width": "60%"
+            "top": "0%"
           },
           "background-color": "#000000aa",
-          "border-radius": "40px"
+          "border-bottom-right-radius": "60px",
+          "border-top-right-radius": "60px"
         }
       },
       "comment": "Left to right moving box",
@@ -37,24 +36,19 @@
       "type": "text",
       "style": "003",
       "settings": {
-        "width": "100%",
-        "horizontal-align": "left",
-        "font-family": "Roboto",
-        "font-size": "100px"
+        "font-size": "5.5vw",
+        "width": "35%",
+        "horizontal-align": "left"
       },
-      "position": "center-center",
-      "x": 416,
+      "position": "custom",
+      "x": 30,
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ",
+      "start": 1,
       "extra-time": 3,
       "fade-out": 1,
-      "y": 228,
-      "start": 2,
-      "duration": 5,
-      "width": 1031,
-      "height": 611
+      "duration": 6
     }
   ],
   "background-color": "#ffffff",
-  "cache": false,
-  "duration": 10
+  "cache": false
 }
