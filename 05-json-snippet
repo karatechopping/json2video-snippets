@@ -6,7 +6,7 @@
     {
       "type": "image",
       "id": "04image",
-      "src": "https://n8n-mtp.s3.amazonaws.com/Bretts-Books-qv3kenk8ysrmc0cndvgatff91m.webp",
+      "src": "--replace-image--",
       "position": "custom",
       "pan": "--replace-pan--",
       "pan-distance": "--replace-pan-distance--",
@@ -44,7 +44,7 @@
       "settings": {
         "headline": {
           "text": [
-            "Embrace every challenge as an opportunity, and watch your potential soar to new heights! "
+            "--replace-text--"
           ],
           "color": "#fff",
           "font-size": "60px",
@@ -54,7 +54,7 @@
           "color": "#bbb",
           "font-size": "50px",
           "text": [
-            "#MotivationMonday #CareerSuccess"
+            "--replace-hashtags--"
           ]
         }
       },
