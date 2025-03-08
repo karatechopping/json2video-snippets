@@ -51,7 +51,7 @@
         "body": {
           "color": "#bbb",
           "font-size": "50px",
-          "text": "--replace-hashtags--",
+          "text": "--replace-hashtags--"
         }
       },
       "width": 600,
