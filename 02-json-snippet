@@ -1,24 +1,23 @@
-#Sliding Box LTR Bottom - needs text
+#Sliding Box LTR Bottom
 {
   "id": "02",
-  "comment": "Sliding Box LTR Bottom - needs text",
+  "comment": "Sliding Box LTR Bottom",
   "elements": [
     {
       "type": "image",
-      "id": "q2x0wfez",
+      "id": "02-image",
       "src": "--replace-image--",
       "position": "custom",
       "pan": "--replace-pan--",
       "pan-distance": "--replace-pan-distance--",
       "zoom": "--replace-zoom--",
-      "scale": "110%",
       "x": 0,
       "y": 0,
       "width": 1920,
       "height": 1080
     },
     {
-      "id": "qqpyy1am",
+      "id": "02-shape",
       "type": "component",
       "component": "shape/rectangle",
       "settings": {
@@ -28,26 +27,50 @@
           "width": "0",
           "height": "15%",
           "animate": {
-            "left": "25%",
+            "left": "0%",
             "duration": "1500",
             "easing": "easeOutQuad",
             "top": "78%",
-            "width": "75%"
+            "width": "100%"
           },
           "background-color": "#000000aa"
         }
       },
       "duration": 7,
-      "comment": "Left to right moving box",
+      "comment": "Bottom Left to Bottom Right",
       "fade-in": 1,
       "fade-out": 1
+    },
+    {
+      "id": "02-text",
+      "type": "text",
+      "style": "001",
+      "text": "--replace-text--",
+      "settings": {
+        "color": "#FFFFFF",
+        "font-size": "80px",
+        "font-family": "Roboto",
+        "shadow": 2,
+        "text-align": "left",
+        "horizontal-align": "right",
+        "margin": "3vw"
+      },
+      "duration": 7,
+      "fade-out": 1,
+      "position": "custom",
+      "flip-horizontal": false,
+      "flip-vertical": false,
+      "y": 836,
+      "x": 0,
+      "width": 1934,
+      "height": 162,
+      "start": 2,
+      "fade-in": 1
     }
   ],
-  "background-color": "#ffffff",
-  "cache": false,
-  "duration": 10,
   "transition": {
-    "style": "--replace-transition--",
+    "style": "--replace--transition--",
     "duration": 1
-  }
+  },
+  "duration": 10
 }
