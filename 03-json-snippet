@@ -9,7 +9,7 @@
       "src": "--replace-image--",
       "position": "custom",
       "pan": "--replace-pan--",
-      "zoom": --replace-zoom--,
+      "zoom": "--replace-zoom--",
       "pan-distance": 0,
       "scale": "110%",
       "x": 0,
