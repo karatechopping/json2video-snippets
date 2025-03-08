@@ -57,7 +57,7 @@
       },
       "position": "custom",
       "x": 1151,
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ",
+      "text": "--replace-text--",
       "extra-time": 3,
       "fade-out": 1,
       "y": 1,
