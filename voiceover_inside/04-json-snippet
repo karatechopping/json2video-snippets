@@ -52,7 +52,7 @@
         "font-size": "90px",
         "font-family": "Roboto",
         "shadow": 2,
-        "text-align": "left",
+        "text-align": "right",
         "horizontal-align": "right",
         "margin": "3vw"
       },
