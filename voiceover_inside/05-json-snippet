@@ -5,7 +5,7 @@
   "elements": [
     {
       "type": "image",
-      "id": "04image",
+      "id": "05-image",
       "src": "--replace-image--",
       "position": "custom",
       "pan": "--replace-pan--",

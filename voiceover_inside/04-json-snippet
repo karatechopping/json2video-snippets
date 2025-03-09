@@ -4,7 +4,7 @@
   "elements": [
     {
       "type": "image",
-      "id": "04image",
+      "id": "04-image",
       "src": "--replace-image--",
       "position": "custom",
       "pan": "--replace-pan--",
@@ -16,7 +16,7 @@
       "height": 1080
     },
     {
-      "id": "04box",
+      "id": "04-shape",
       "type": "component",
       "component": "shape/rectangle",
       "settings": {
@@ -44,7 +44,7 @@
       "position": "custom"
     },
     {
-      "id": "04text",
+      "id": "04-text",
       "type": "text",
       "style": "003",
       "settings": {
