@@ -66,7 +66,7 @@
       "duration": 6
     },
     {
-      "id": "01-audio",
+      "id": "03-audio",
       "type": "audio",
       "src": "--replace-audio--",
       "duration": -1,
