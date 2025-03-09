@@ -5,7 +5,7 @@
     {
       "type": "image",
       "id": "04image",
-      "src": "https://n8n-mtp.s3.amazonaws.com/Bretts-Books-qv3kenk8ysrmc0cndvgatff91m.webp",
+      "src": "--replace-image--",
       "position": "custom",
       "pan": "--replace-pan--",
       "pan-distance": "--replace-pan-distance--",
