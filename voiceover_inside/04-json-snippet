@@ -79,5 +79,5 @@
     "style": "--replace-transition--",
     "duration": 1
   },
-  "duration": 10
+  "duration": -1
 }
