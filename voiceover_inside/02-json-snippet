@@ -1,0 +1,71 @@
+#Sliding Box LTR Bottom
+{
+  "id": "02",
+  "comment": "Sliding Box LTR Bottom",
+  "elements": [
+    {
+      "type": "image",
+      "id": "02-image",
+      "src": "--replace-image--",
+      "position": "custom",
+      "pan": "--replace-pan--",
+      "pan-distance": "--replace-pan-distance--",
+      "zoom": "--replace-zoom--",
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "02-shape",
+      "type": "component",
+      "component": "shape/rectangle",
+      "settings": {
+        "rectangle1": {
+          "left": "0%",
+          "top": "100%",
+          "width": "0",
+          "height": "15%",
+          "animate": {
+            "left": "0%",
+            "duration": "1500",
+            "easing": "easeOutQuad",
+            "top": "78%",
+            "width": "100%"
+          },
+          "background-color": "#000000aa"
+        }
+      },
+      "duration": 7,
+      "comment": "Bottom Left to Bottom Right",
+      "fade-in": 2,
+      "fade-out": 2,
+      "start": 1
+    },
+    {
+      "id": "02-text",
+      "type": "text",
+      "style": "002",
+      "text": "--replace-text--",
+      "settings": {
+        "font-size": "100px",
+        "font-family": "Roboto"
+      },
+      "transition": {
+        "style": "dissolve",
+        "duration": 3
+      },
+      "position": "custom",
+      "y": 380,
+      "fade-in": 2,
+      "fade-out": 2,
+      "start": 2,
+      "duration": 6
+    }
+  ],
+  "transition": {
+    "style": "--replace-transition--",
+    "duration": 1
+  },
+  "duration": 10
+}
