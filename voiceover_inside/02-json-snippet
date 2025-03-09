@@ -61,6 +61,13 @@
       "fade-out": 2,
       "start": 2,
       "duration": 6
+    },
+    {
+      "id": "01-audio",
+      "type": "audio",
+      "src": "--replace-audio--",
+      "duration": -1,
+      "volume": 7
     }
   ],
   "transition": {

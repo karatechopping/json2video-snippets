@@ -66,6 +66,13 @@
       "duration": 5,
       "width": 1031,
       "height": 611
+    },
+    {
+      "id": "01-audio",
+      "type": "audio",
+      "src": "--replace-audio--",
+      "duration": -1,
+      "volume": 7
     }
   ],
   "transition": {

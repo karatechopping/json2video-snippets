@@ -60,13 +60,6 @@
       "y": 55,
       "comment": "Simple card",
       "start": 1.5
-    },
-    {
-      "id": "01-audio",
-      "type": "audio",
-      "src": "--replace-audio--",
-      "duration": -1,
-      "volume": 7
     }
   ],
   "transition": {
