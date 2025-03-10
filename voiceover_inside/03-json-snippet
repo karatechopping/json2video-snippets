@@ -73,9 +73,5 @@
       "volume": 7
     }
   ],
-  "transition": {
-    "style": "--replace-transition--",
-    "duration": 1
-  },
   "duration": -1
 }
