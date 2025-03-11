@@ -72,7 +72,8 @@
       "type": "audio",
       "src": "--replace-audio--",
       "duration": -1,
-      "volume": 7
+      "volume": 7,
+      "extra-time": 3
     }
   ],
   "transition": {
