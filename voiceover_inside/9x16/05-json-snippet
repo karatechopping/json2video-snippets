@@ -35,7 +35,7 @@
 	  "y": -177,
 	  "width": 1350,
 	  "height": 1380,
-	  "position": "custom"
+	  "position": "custom",
 	  "extra-time": 3,
 	  "fade-out": 2,
 	  "duration": 5
