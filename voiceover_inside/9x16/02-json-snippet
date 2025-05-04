@@ -16,54 +16,61 @@
       "width": 1080,
       "height": 1920
     },
-    {
-      "id": "02-shape",
-      "type": "component",
-      "component": "shape/rectangle",
-      "settings": {
-        "rectangle1": {
-          "left": "50%",
-          "top": "50%",
-          "width": "0",
-          "height": "35%",
-          "animate": {
-            "left": "0%",
-            "duration": "1500",
-            "easing": "easeOutQuad",
-            "top": "65%",
-            "width": "100%"
-          },
-          "background-color": "#000000aa"
-        }
-      },
-      "duration": 7,
-      "comment": "Bottom Left to Bottom Right",
-      "fade-in": 2,
-      "fade-out": 2,
-      "start": 1
-    },
-    {
-      "id": "02-text",
-      "type": "text",
-      "style": "002",
-      "text": "--replace-text--",
-      "settings": {
-        "margin-left": "20px",
-        "margin-right": "20px",
-        "font-size": "100px",
-        "font-family": "Roboto"
-      },
-      "transition": {
-        "style": "dissolve",
-        "duration": 3
-      },
-      "position": "custom",
-      "y": 600,
-      "fade-in": 2,
-      "fade-out": 2,
-      "start": 2,
-      "duration": 6
-    },
+	{
+	  "id": "02-shape",
+	  "type": "component",
+	  "component": "shape/rectangle",
+	  "settings": {
+		"rectangle1": {
+		  "left": "50%",
+		  "top": "30%",
+		  "width": "0",
+		  "height": "35%",
+		  "animate": {
+			"left": "0%",
+			"duration": "1500",
+			"easing": "easeOutQuad",
+			"top": "54%",
+			"width": "100%"
+		  },
+		  "background-color": "#000000aa"
+		}
+	  },
+	  "duration": 7,
+	  "comment": "Bottom Left to Bottom Right",
+	  "fade-in": 2,
+	  "fade-out": 2,
+	  "start": 1,
+	  "x": -13,
+	  "y": -178,
+	  "width": 1097,
+	  "height": 1935
+	},
+	{
+	  "id": "02-text",
+	  "type": "text",
+	  "style": "002",
+	  "text": "Perfect timing creates perfect review moments",
+	  "settings": {
+		"margin-left": "20px",
+		"margin-right": "20px",
+		"font-size": "100px",
+		"font-family": "Roboto"
+	  },
+	  "transition": {
+		"style": "dissolve",
+		"duration": 3
+	  },
+	  "position": "custom",
+	  "y": 863,
+	  "fade-in": 2,
+	  "fade-out": 2,
+	  "start": 2,
+	  "duration": 6,
+	  "x": -7,
+	  "width": 1092,
+	  "height": 678
+	},
     {
       "id": "02-audio",
       "type": "audio",
