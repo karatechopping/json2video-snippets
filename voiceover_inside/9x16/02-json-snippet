@@ -54,10 +54,6 @@
                 "font-size": "100px",
                 "font-family": "Roboto"
             },
-            "transition": {
-                "style": "dissolve",
-                "duration": 1
-            },
             "position": "custom",
             "y": 863,
             "start": 0.5,
