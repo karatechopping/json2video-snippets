@@ -36,9 +36,9 @@
 	  "width": 1350,
 	  "height": 1380,
 	  "position": "custom",
-	  "extra-time": 3,
+	  "extra-time": 2,
 	  "fade-out": 2,
-	  "duration": 5
+	  "duration": 6.5
 	},
     {
 	  "id": "05-text",
@@ -67,7 +67,7 @@
 	  "y": 55,
 	  "comment": "Simple card",
 	  "start": 1.5,
-	  "extra-time": 3,
+	  "extra-time": 2,
 	  "fade-out": 2,
 	  "duration": 5
 	},
