@@ -1,81 +1,79 @@
-#Elastic Box Left + Card Text
 {
-  "id": "05",
-  "comment": "Elastic box",
-  "elements": [
-    {
-      "type": "image",
-      "id": "05-image",
-      "src": "--replace-image--",
-      "position": "custom",
-      "pan": "--replace-pan--",
-      "pan-distance": "--replace-pan-distance--",
-      "zoom": "--replace-zoom--",
-      "x": 0,
-      "y": 0,
-      "width": 1080,
-      "height": 1920
-    },
-    {
-	  "id": "05-shape",
-	  "type": "component",
-	  "component": "basic/100",
-	  "settings": {
-		"box": {
-		  "background": "#000000aa",
-		  "box-shadow": "none",
-		  "final_width": "80%"
-		}
-	  },
-	  "comment": "Elastic box",
-	  "rotate": {
-		"angle": 8
-	  },
-	  "x": -150,
-	  "y": -177,
-	  "width": 1350,
-	  "height": 1380,
-	  "position": "custom",
-	  "duration": -2
-	},
-    {
-	  "id": "05-text",
-	  "type": "component",
-	  "component": "basic/000",
-	  "settings": {
-		"headline": {
-		  "text": "--replace-text--",
-		  "color": "#fff",
-		  "font-size": "75px",
-		  "font-family": "Roboto"
-		},
-		"body": {
-		  "color": "#bbb",
-		  "font-size": "60px",
-		  "text": "--replace-hashtags--"
-		},
-		"card": {
-		  "vertical-align": "top",
-		  "margin-top": "75px"
-		}
-	  },
-	  "width": 700,
-	  "height": 972,
-	  "x": 43,
-	  "y": 55,
-	  "comment": "Simple card",
-	  "start": 0.5,
-	  "duration": -2
-
-	},
-    {
-      "id": "05-audio",
-      "type": "audio",
-      "src": "--replace-audio--",
-      "duration": -1,
-      "volume": 7,
-	  "extra-time": 0.5
-    }
-  ],
-  "duration": -1
+    "id": "05",
+    "comment": "Elastic box",
+    "elements": [
+        {
+            "type": "image",
+            "id": "05-image",
+            "src": "--replace-image--",
+            "position": "custom",
+            "pan": "--replace-pan--",
+            "pan-distance": "--replace-pan-distance--",
+            "zoom": "--replace-zoom--",
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920
+        },
+        {
+            "id": "05-shape",
+            "type": "component",
+            "component": "basic/100",
+            "settings": {
+                "box": {
+                    "background": "#000000aa",
+                    "box-shadow": "none",
+                    "final_width": "80%"
+                }
+            },
+            "comment": "Elastic box",
+            "rotate": {
+                "angle": 8
+            },
+            "x": -150,
+            "y": -177,
+            "width": 1350,
+            "height": 1380,
+            "position": "custom",
+            "duration": -2
+        },
+        {
+            "id": "05-text",
+            "type": "component",
+            "component": "basic/000",
+            "settings": {
+                "headline": {
+                    "text": "--replace-text--",
+                    "color": "#fff",
+                    "font-size": "75px",
+                    "font-family": "Roboto"
+                },
+                "body": {
+                    "color": "#bbb",
+                    "font-size": "60px",
+                    "text": "--replace-hashtags--"
+                },
+                "card": {
+                    "vertical-align": "top",
+                    "margin-top": "75px"
+                }
+            },
+            "width": 700,
+            "height": 972,
+            "x": 43,
+            "y": 55,
+            "comment": "Simple card",
+            "start": 0.5,
+            "duration": -2
+        },
+        {
+            "id": "05-audio",
+            "type": "audio",
+            "src": "--replace-audio--",
+            "duration": -1,
+            "volume": 7,
+            "extra-time": 0.5
+        }
+    ],
+    "duration": -1
 }

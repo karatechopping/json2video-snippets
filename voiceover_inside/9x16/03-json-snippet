@@ -1,77 +1,76 @@
-#Sliding Box Top 2 Bottom Left 40%
 {
-  "id": "03",
-  "comment": "Sliding Box Top 2 Bottom Left 40%",
-  "elements": [
-    {
-      "type": "image",
-      "id": "03-image",
-      "src": "--replace-image--",
-      "position": "custom",
-      "pan": "--replace-pan--",
-      "pan-distance": "--replace-pan-distance--",
-      "zoom": "--replace-zoom--",
-      "x": 0,
-      "y": 0,
-      "width": 1080,
-      "height": 1920
-    },
-    {
-      "id": "03-shape",
-      "type": "component",
-      "component": "shape/rectangle",
-      "settings": {
-        "rectangle1": {
-          "left": "5%",
-          "top": "-100%",
-          "width": "90%",
-          "height": "26%",
-          "animate": {
-            "duration": "2000",
-            "easing": "easeOutQuad",
-            "top": "37%"
-          },
-          "background-color": "#000000aa",
-          "border-bottom-right-radius": "20px",
-          "border-top-right-radius": "20px",
-          "border-bottom-left-radius": "20px",
-          "border-top-left-radius": "20px",
-          "margin-left": "5px",
-          "margin-right": "5px"
+    "id": "03",
+    "comment": "Sliding Box Top 2 Bottom Left 40%",
+    "elements": [
+        {
+            "type": "image",
+            "id": "03-image",
+            "src": "--replace-image--",
+            "position": "custom",
+            "pan": "--replace-pan--",
+            "pan-distance": "--replace-pan-distance--",
+            "zoom": "--replace-zoom--",
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920
+        },
+        {
+            "id": "03-shape",
+            "type": "component",
+            "component": "shape/rectangle",
+            "settings": {
+                "rectangle1": {
+                    "left": "5%",
+                    "top": "-100%",
+                    "width": "90%",
+                    "height": "26%",
+                    "animate": {
+                        "duration": "2000",
+                        "easing": "easeOutQuad",
+                        "top": "37%"
+                    },
+                    "background-color": "#000000aa",
+                    "border-bottom-right-radius": "20px",
+                    "border-top-right-radius": "20px",
+                    "border-bottom-left-radius": "20px",
+                    "border-top-left-radius": "20px",
+                    "margin-left": "5px",
+                    "margin-right": "5px"
+                }
+            },
+            "comment": "Top to bottom box on left",
+            "x": 0,
+            "y": 0,
+            "duration": -2,
+            "position": "custom"
+        },
+        {
+            "id": "03-text",
+            "type": "text",
+            "style": "003",
+            "settings": {
+                "font-size": "7vw",
+                "width": "80%",
+                "horizontal-align": "center",
+                "vertical-align": "center",
+                "font-family": "Roboto"
+            },
+            "position": "custom",
+            "x": 0,
+            "y": 0,
+            "text": "--replace-text--",
+            "start": 0.5,
+            "duration": -2
+        },
+        {
+            "id": "03-audio",
+            "type": "audio",
+            "src": "--replace-audio--",
+            "duration": -1,
+            "volume": 7,
+            "extra-time": 0.5
         }
-      },
-      "comment": "Top to bottom box on left",
-      "x": 0,
-      "y": 0,
-      "duration": -2,
-      "position": "custom"
-    },
-    {
-      "id": "03-text",
-      "type": "text",
-      "style": "003",
-      "settings": {
-        "font-size": "7vw",
-        "width": "80%",
-        "horizontal-align": "center",
-        "vertical-align": "center",
-        "font-family": "Roboto"
-      },
-      "position": "custom",
-      "x": 0,
-      "y": 0,
-      "text": "--replace-text--",
-      "start": 0.5,
-	  "duration": -2
-    },
-    {
-      "id": "03-audio",
-      "type": "audio",
-      "src": "--replace-audio--",
-      "duration": -1,
-      "volume": 7,
-      "extra-time": 0.5
-    }
-  ],
-  "duration": -1
+    ],
+    "duration": -1
 }
