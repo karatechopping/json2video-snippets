@@ -50,7 +50,7 @@
 	  "id": "02-text",
 	  "type": "text",
 	  "style": "002",
-	  "text": "Perfect timing creates perfect review moments",
+          "text": "--replace-text--",
 	  "settings": {
 		"margin-left": "20px",
 		"margin-right": "20px",

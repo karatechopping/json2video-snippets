@@ -58,7 +58,7 @@
 	  },
 	  "position": "center-center",
 	  "x": 416,
-	  "text": "--replace-text-- ",
+          "text": "--replace-text--",
 	  "extra-time": 3,
 	  "y": 228,
 	  "start": 2.5,
