@@ -22,15 +22,15 @@
       "component": "shape/rectangle",
       "settings": {
         "rectangle1": {
-          "left": "0%",
-          "top": "100%",
+          "left": "50%",
+          "top": "50%",
           "width": "0",
-          "height": "15%",
+          "height": "35%",
           "animate": {
             "left": "0%",
             "duration": "1500",
             "easing": "easeOutQuad",
-            "top": "78%",
+            "top": "65%",
             "width": "100%"
           },
           "background-color": "#000000aa"
@@ -56,7 +56,7 @@
         "duration": 3
       },
       "position": "custom",
-      "y": 380,
+      "y": 600,
       "fade-in": 2,
       "fade-out": 2,
       "start": 2,
