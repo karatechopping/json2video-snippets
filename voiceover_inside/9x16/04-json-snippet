@@ -36,8 +36,7 @@
 		}
 	  },
 	  "comment": "Top 2 Bottom RHS",
-	  "extra-time": 3,
-	  "duration": 5,
+	  "duration":7,
 	  "position": "custom",
 	  "y": 0,
 	  "x": 216,

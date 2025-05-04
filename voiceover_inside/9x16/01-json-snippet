@@ -34,7 +34,7 @@
 			"left": "5%",
 			"width": "90%"
 		  },
-		  "background-color": "#d10000",
+		  "background-color": "#000000aa",
 		  "border-radius": "20px"
 		}
 	  },
@@ -51,7 +51,7 @@
 	  "type": "text",
 	  "style": "003",
 	  "settings": {
-		"width": "100%",
+		"width": "80%",
 		"horizontal-align": "left",
 		"font-family": "Roboto",
 		"font-size": "100px"
