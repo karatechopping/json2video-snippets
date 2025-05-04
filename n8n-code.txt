@@ -1,0 +1,36 @@
+const videoTitle = $('Set Vars').first().json.videoTitle;
+
+let scenesArray = [];
+let allItems = $input.all();
+
+for (let item of allItems) {
+if (typeof item.json.jsonSnippet === 'string') {
+scenesArray.push(JSON.parse(item.json.jsonSnippet));
+} else {
+scenesArray.push(item.json.jsonSnippet);
+}
+}
+
+return [{json: {
+"movie": {
+"id": Date.now().toString(),
+"comment": videoTitle,
+"resolution": "full-hd",
+"quality": "high",
+"draft": false,
+"scenes": scenesArray,
+"elements": [
+{
+"id": "q8hx1wo4",
+"type": "audio",
+"src": "https://json2video-test.s3.amazonaws.com/assets/audios/advertime.mp3",
+"duration": -2,
+"fade-out": 2,
+"volume": 0.5
+}
+],
+"fps": 25,
+"settings": {},
+"cache": true
+}
+}}];

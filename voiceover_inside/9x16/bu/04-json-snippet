@@ -36,10 +36,11 @@
 		}
 	  },
 	  "comment": "Top 2 Bottom RHS",
-	  "duration":-2,
+	  "duration":7,
 	  "position": "custom",
 	  "y": 0,
-	  "x": 216
+	  "x": 216,
+	  "fade-out": 2
 	},
     {
 	  "id": "04-text",
@@ -56,12 +57,14 @@
 	  },
 	  "position": "top-right",
 	  "x": 0,
-      "text": "--replace-text--",  
+          "text": "--replace-text--",  
+          "extra-time": 3,
+	  "fade-out": 2,
 	  "y": 1,
 	  "width": 500,
 	  "height": 1000,
-	  "start": .5,
-	  "duration": -2
+	  "start": 2,
+	  "duration": 5
 	},
     {
       "id": "04-audio",
@@ -69,7 +72,7 @@
       "src": "--replace-audio--",
       "duration": -1,
       "volume": 7,
-      "extra-time": 0.5
+      "extra-time": 2
     }
   ],
   "duration": -1

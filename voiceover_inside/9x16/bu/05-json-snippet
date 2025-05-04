@@ -36,7 +36,9 @@
 	  "width": 1350,
 	  "height": 1380,
 	  "position": "custom",
-	  "duration": -2
+	  "extra-time": 2,
+	  "fade-out": 2,
+	  "duration": 6.5
 	},
     {
 	  "id": "05-text",
@@ -64,9 +66,10 @@
 	  "x": 43,
 	  "y": 55,
 	  "comment": "Simple card",
-	  "start": 0.5,
-	  "duration": -2
-
+	  "start": 1.5,
+	  "extra-time": 2,
+	  "fade-out": 2,
+	  "duration": 5
 	},
     {
       "id": "05-audio",
@@ -74,7 +77,7 @@
       "src": "--replace-audio--",
       "duration": -1,
       "volume": 7,
-	  "extra-time": 0.5
+      "extra-time": 2
     }
   ],
   "duration": -1

@@ -42,7 +42,9 @@
 	  "x": 0,
 	  "y": 0,
 	  "position": "custom",
-	  "duration": -2,
+	  "extra-time": 0,
+	  "duration": 8,
+	  "fade-out": 2
 	},
     {
 	  "id": "01-text",
@@ -59,10 +61,11 @@
           "text": "--replace-text--",
 	  "extra-time": 3,
 	  "y": 228,
-	  "start": 0.5,
-	  "duration": -2,
+	  "start": 2.5,
+	  "duration": 5,
 	  "width": 1031,
-	  "height": 611
+	  "height": 611,
+	  "fade-out": 2
 	},
     {
       "id": "01-audio",
@@ -70,7 +73,7 @@
       "src": "--replace-audio--",
       "duration": -1,
       "volume": 7,
-      "extra-time": 0.5
+      "extra-time": 2
     }
   ],
   "duration": -1

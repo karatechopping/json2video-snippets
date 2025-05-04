@@ -36,9 +36,11 @@
 		  "background-color": "#000000aa"
 		}
 	  },
-	  "duration": -2,
+	  "duration": 7,
 	  "comment": "Bottom Left to Bottom Right",
-	  "start": 0.5,
+	  "fade-in": 2,
+	  "fade-out": 2,
+	  "start": 1,
 	  "x": -13,
 	  "y": -178,
 	  "width": 1097,
@@ -57,12 +59,14 @@
 	  },
 	  "transition": {
 		"style": "dissolve",
-		"duration": 1
+		"duration": 3
 	  },
 	  "position": "custom",
 	  "y": 863,
-	  "start": 0.5,
-	  "duration": -2,
+	  "fade-in": 2,
+	  "fade-out": 2,
+	  "start": 2,
+	  "duration": 6,
 	  "x": -7,
 	  "width": 1092,
 	  "height": 678
@@ -73,7 +77,7 @@
       "src": "--replace-audio--",
       "duration": -1,
       "volume": 7,
-      "extra-time": 0.5
+      "extra-time": 2
     }
   ],
   "duration": -1
